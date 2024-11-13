@@ -11,5 +11,17 @@ body {
 hr {
     background-color: #E5E5E533;
     border: 1px solid #E5E5E533;
-    width: 650px;
+    max-width: 650px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #4b4b4b;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background: #999999;
+}
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 10px;
 }
