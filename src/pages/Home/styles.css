@@ -92,6 +92,18 @@ button:hover{
     
 }
 
+.mobileButton{
+
+    border-radius: 100%;
+    width: auto;
+    height: auto;
+    min-width: 55px;
+    visibility: hidden;
+}
+.svg-icon{
+    width: 25px;
+}
+
 .repositorios{
     font-size: 32px;
     display: flex;
@@ -108,6 +120,14 @@ button:hover{
     
 }
 
+.alert
+{
+ visibility: hidden;
+ display: flex;
+ justify-content: center;
+ padding: 0;
+}
+
 @media screen and (max-width: 800px) {
     .perfil {
         flex-direction: column;
@@ -115,6 +135,30 @@ button:hover{
     }
     .profile{
         margin-bottom: 20px;
+    }
+    .mobileButton{
+
+       
+        visibility: visible;
+    }
+
+    .desktopButton{
+        visibility: hidden;
+        display: none;
+    }
+
+    input{
+        min-width: none;
+    }
+    .background{
+        height: 80vh;
+        position: absolute;
+        left: 0;
+    }
+
+    .buscar{
+        display: flex;
+        flex-direction: row;
     }
 }
 
